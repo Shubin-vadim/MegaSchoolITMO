@@ -5,7 +5,7 @@ class Settings:
     GOOGLE_SEARCH_KEY: str = os.getenv("GOOGLE_SEARCH_KEY", "")
     GOOGLE_SEARCH_CX: str = os.getenv("GOOGLE_SEARCH_CX", "")
     
-    HOST: str = "127.0.0.1"
+    HOST: str = "0.0.0.0"
     PORT: int = 8000
     
     CACHE_TTL: int = 3600
